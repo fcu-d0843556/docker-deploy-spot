@@ -1,0 +1,9 @@
+version: '2.2'
+
+services:
+  server:
+    container_name: "kevin-phaser-game-server-deploy"
+    ports:
+      - "8010:5000"
+    image: "kevintestphaserserver:latest"
+    restart: always

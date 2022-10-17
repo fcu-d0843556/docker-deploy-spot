@@ -1,0 +1,6 @@
+stack:
+kevin-geg-deploy
+
+
+image:
+kevin-geg-server
