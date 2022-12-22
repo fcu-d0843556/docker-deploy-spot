@@ -10,5 +10,5 @@ WORKDIR /data/app
 RUN npm install
 RUN ls
 EXPOSE 5000
-CMD [ "node", "server.js" ]
+CMD [ "npm", "start" ]
 
